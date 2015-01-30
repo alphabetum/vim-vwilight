@@ -45,7 +45,7 @@ hi Label                        ctermfg=107  ctermbg=NONE cterm=NONE         gui
 " NonText
 " Applies to 'eol', 'extends', 'precedes', '~' and '@' at the end of the
 " window, characters from 'showbreak', and other characters that do not really
-" exist in the text (e.g., ">" displayed when a double-wide character doesn't
+" exist in the text (e.g., '>' displayed when a double-wide character doesn't
 " fit at the end of the line).
 "
 " Original NonText
