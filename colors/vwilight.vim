@@ -42,6 +42,12 @@ hi Function                     ctermfg=95   ctermbg=NONE cterm=NONE         gui
 hi Identifier                   ctermfg=228  ctermbg=NONE cterm=NONE         guifg=#f9ee98 guibg=NONE    gui=NONE
 hi Keyword                      ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 hi Label                        ctermfg=107  ctermbg=NONE cterm=NONE         guifg=#8f9d6a guibg=NONE    gui=NONE
+" NonText
+" Applies to 'eol', 'extends', 'precedes', '~' and '@' at the end of the
+" window, characters from 'showbreak', and other characters that do not really
+" exist in the text (e.g., ">" displayed when a double-wide character doesn't
+" fit at the end of the line).
+"
 " Original NonText
 "hi NonText                      ctermfg=239  ctermbg=234  cterm=NONE         guifg=#4f4f4f guibg=#1f1f1f gui=NONE
 "
@@ -52,7 +58,16 @@ hi Number                       ctermfg=167  ctermbg=NONE cterm=NONE         gui
 hi Operator                     ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 hi PreProc                      ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 hi Special                      ctermfg=231  ctermbg=NONE cterm=NONE         guifg=#f8f8f8 guibg=NONE    gui=NONE
-hi SpecialKey                   ctermfg=239  ctermbg=235  cterm=NONE         guifg=#4f4f4f guibg=#2b2b2b gui=NONE
+" SpecialKey
+" Applies to nbsp, tab, and trail
+"
+" Original SpecialKey
+"hi SpecialKey                   ctermfg=239  ctermbg=235  cterm=NONE         guifg=#4f4f4f guibg=#2b2b2b gui=NONE
+"
+" More subtle SpecialKey
+" Provides better distiction between tabs and LineNr, and less noise with
+" trail characters when typing on insert.
+hi SpecialKey                   ctermfg=239  ctermbg=235  cterm=NONE         guifg=#4f4f4f guibg=#262626 gui=NONE
 hi Statement                    ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 hi StorageClass                 ctermfg=228  ctermbg=NONE cterm=NONE         guifg=#f9ee98 guibg=NONE    gui=NONE
 hi String                       ctermfg=107  ctermbg=NONE cterm=NONE         guifg=#8f9d6a guibg=NONE    gui=NONE
