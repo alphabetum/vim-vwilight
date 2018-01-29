@@ -60,7 +60,7 @@ hi Label                        ctermfg=107  ctermbg=NONE cterm=NONE         gui
 "
 " More subtle NonText
 " Better for eol characters, but not as good for the end of file section
-hi NonText                      ctermfg=239  ctermbg=234  cterm=NONE         guifg=#3b3b3b guibg=#1a1a1a gui=NONE
+hi NonText                      ctermfg=239  ctermbg=234  cterm=NONE         guifg=#2a2a2a guibg=#161616 gui=NONE
 hi Number                       ctermfg=167  ctermbg=NONE cterm=NONE         guifg=#cf6a4c guibg=NONE    gui=NONE
 hi Operator                     ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 hi PreProc                      ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
@@ -74,7 +74,7 @@ hi Special                      ctermfg=231  ctermbg=NONE cterm=NONE         gui
 " More subtle SpecialKey
 " Provides better distiction between tabs and LineNr, and less noise with
 " trail characters when typing on insert.
-hi SpecialKey                   ctermfg=239  ctermbg=235  cterm=NONE         guifg=#4f4f4f guibg=#1a1a1a gui=NONE
+hi SpecialKey                   ctermfg=239  ctermbg=235  cterm=NONE         guifg=#272727 guibg=#161616 gui=NONE
 hi Statement                    ctermfg=179  ctermbg=NONE cterm=NONE         guifg=#cda869 guibg=NONE    gui=NONE
 hi StorageClass                 ctermfg=228  ctermbg=NONE cterm=NONE         guifg=#f9ee98 guibg=NONE    gui=NONE
 hi String                       ctermfg=107  ctermbg=NONE cterm=NONE         guifg=#8f9d6a guibg=NONE    gui=NONE
